@@ -1,0 +1,16 @@
+### GET Chat by ID
+GET https://localhost:5000/api/chats/1
+Content-Type: application/json
+
+### POST Create Chat
+POST https://localhost:5000/api/chats
+Content-Type: application/json
+
+{
+    "title": "New Chat",
+    "creatorId": 1
+}
+
+### DELETE Chat
+DELETE https://localhost:5001/api/chats/1
+Content-Type: application/json
